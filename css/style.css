@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    margin: 0 auto;
+    box-sizing: content-box;  
+    border: 1px solid #000;
+    padding: 30px;  
+    width: 300px;
+    height: auto;
+    border-radius: 4px;
+    background-color:	#f5f5f5;
+ 
+}
+input {
+    width: 280px;
+    padding: 5px;
+    
+}
+#calcular  {
+    background-color: #15b9da;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid;
+    color: #fff;
+    cursor: pointer;
+      border-radius: 10px;
+}
+
+select {
+    width: 280px;
+    padding: 5px;
+    
+}
+.enviar:hover {
+  background-color:#6bb1b1; 
+}
+
+.titulo {
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.nomelivro{
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nomeLivro {
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.precoP {
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.preco {
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.descontoP {
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+#desconto {
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#div {
+    background-color:	#f5f5f5;
+    margin: 0 auto;
+    box-sizing: content-box;  
+    border: 1px solid #000;
+    padding: 30px;  
+    width: 300px;
+    height: auto;
+    border-radius: 4px;
+    
+ 
+}
+
+#p1 {
+    margin-bottom: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+#p2 {
+    margin-bottom: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+#p3 {
+    margin-bottom: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+#p4 {
+    margin-bottom: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}

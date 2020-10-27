@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria</title>
+</head>
+<link rel="stylesheet" href="./css/style.css">
+<body>
+
+<div class="box">
+
+    <form name="Formulario" action="" method="post"></form>
+
+    <h2 class="titulo">Checkpoint - 2</h2>
+
+    <p class="nomelivro">Nome do Livro</p>
+    <p class="nomeLivro">
+        <input type="text" id="nomedoLivrooo"  required="required">
+    </p>
+
+    <p class="precoP">Preço</p>
+    <p class="preco">
+        <input type="text" id="preco" required="required">
+    </p>
+
+    <p class="descontoP">Selecione o desconto</p>
+    <select name="desconto" id="desconto">
+      <option value="Nenhum">Nenhum</option>
+      <option value="clienteA">Cliente A</option>
+      <option value="clienteB">Cliente B</option>
+      <option value="clienteC">Cliente C</option>
+    </select>
+
+   
+        <input id="calcular" type="submit" value="Efetuar Pagamento">
+   
+
+</div>
+
+<div id="div">
+    <h2 class="titulo">Carrinho</h2>
+    <p id="p1">Nome do Livro:</p>
+    <p id="p2">Preço do Livro:</p>
+    <p id="p3">Desconto:</p>
+    <p id="p4">Total a Pagar:</p>
+  </div>
+
+
+
+
+<script src="./js/livraria.js"></script>
+
+</body>
+</html>
